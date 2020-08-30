@@ -3,8 +3,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Chari'
-export const siteTitle = 'Next.js Sample Website'
+const name = 'Charitha - My journey as a Frontend Engineer'
+export const siteTitle = 'My journey as a Frontend Engineer'
 
 export default function Layout({ children, home }) {
   return (
@@ -13,8 +13,9 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Frontend Software Engineer Sri Lanka - Charitha Goonewardena"
         />
+        <meta name="keywords" content="Software Engineer, Charitha Goonewardena, Frontend, Engineer, My journey"></meta>
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
